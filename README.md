@@ -6,7 +6,7 @@ In some cases, you may like to use Java backend for an Electron desktop app. The
 
 This project has two sub projects. Although they are just folders in this project, but they could be in their own Git repository and merged to this project using [Git subtree](https://help.github.com/articles/about-git-subtree-merges/).
 
-1. `reacr`: a React application as the front-end, based on the HelloWorld project created using create-react-app.
+1. `react`: a React application as the front-end, based on the HelloWorld project created using create-react-app.
 2. `spring`: a Spring Boot application as the backend, based on a Maven project created by [Spring Initializer](https://start.spring.io/) with Web dependency.
 
 Both Linux and Mac OS are supported (i am not testing it yet, but there's shouldn't be any big problem.
@@ -85,4 +85,4 @@ In the Spring app, `logback-spring.xml` configuration sends the log to console, 
 
 [MIT](LICENSE)
 
-This starter is copied from [wuruoyun/electron-vue-spring](https://github.com/wuruoyun/electron-vue-spring), but because i don't like `vue` so i changed it to react
+This starter is copied from [wuruoyun/electron-vue-spring](https://github.com/wuruoyun/electron-vue-spring), but because i don't like `vue` so i changed it to react.

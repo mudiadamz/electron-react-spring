@@ -19,7 +19,7 @@ public class StartRunner implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        UserDto userDto = new UserDto("admin", "admin", "Adam Mudianto", "mudi.adamz@gmail.com");
+        UserDto userDto = new UserDto("admin", "admin", "Administrator", "admin@gmail.com");
         User user = userService.register(userDto);
         logger.info("Init user : "+ user);
     }
